@@ -23,7 +23,7 @@ Access the django shell to run migrations.
     
 Inside Shell Run this cmd to apply the migrations .
   ```
-    python manage.py runserver
+    python manage.py migrate
   ```   
     
 Create the superuser as well if need to access the admin panel.
