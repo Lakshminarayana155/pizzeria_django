@@ -12,14 +12,14 @@ Follow these steps to set up and run the project on your local machine:
 
 
 Run the docker-compose file this will start the services. 
-   ```
+```
     docker-compose up -d
-   ```
+```
 
 Access the django shell to run migrations.
-    ```
+```
     doocker-compose exec django bash
-    ```
+```
     
 Inside Shell Run this cmd to apply the migrations .
   ```
