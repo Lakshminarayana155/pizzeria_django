@@ -18,7 +18,7 @@ Run the docker-compose file this will start the services.
 
 Access the django shell to run migrations.
 ```
-    docker-compose exec django bash
+    docker-compose exec -it django bash
 ```
     
 Inside Shell Run this cmd to apply the migrations .
